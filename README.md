@@ -1,2 +1,5 @@
 # Food-Ordering-Website
-Just a Food Order Website Source Code
+Admin - Backend
+partials - backend constants
+partials-front - frontend constants
+Other Files - frontend
