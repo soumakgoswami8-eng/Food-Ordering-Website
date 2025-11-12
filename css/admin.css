@@ -1,0 +1,277 @@
+/* 
+    Author: Soumak Goswami;
+    Theme: Food Order Website Admin;
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.clear-fix{
+    float: none;
+    clear: both;
+}
+
+.tbl-full{
+    width: 100%;
+}
+
+.tbl-30{
+    width: 30%;
+}
+
+/* td {
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+} */
+
+
+.table-container {
+  width: 100%;
+  overflow-x: auto; /* enables horizontal scroll if needed */
+}
+
+/* Table setup */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  table-layout: auto; /* auto adjusts column width */
+}
+
+/* Header styling */
+th {
+  background-color: #e43c3c; /* your red theme */
+  color: white;
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-transform: capitalize;
+  text-align: left; /* align text to left */
+  white-space: nowrap; /* keep headers in one line */
+}
+
+/* Cell styling */
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  vertical-align: middle;
+  text-align: left; /* left align text */
+  white-space: nowrap; /* no line breaks */
+  overflow: hidden; /* hide text overflow */
+}
+
+/* alternate row colors for better readability */
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* action buttons */
+.action-links a {
+  color: green;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.action-links a:hover {
+  text-decoration: underline;
+}
+
+
+
+.btn-primary{
+    background-color: #1e90ff;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-primary:hover{
+    background-color: #3742fa;
+}
+
+.btn-secondary{
+    background-color: #7bed9f;
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-secondary:hover{
+    background-color: #2ed573;
+}
+
+.btn-danger{
+    background-color: #ff6b81;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-danger:hover{
+    background-color: #ff4757;
+}
+
+.success{
+    color: #7bed9f;
+}
+
+.error{
+    color: #ff6348;
+}
+
+/* CSS For Menu */
+.menu{
+    border-bottom: 1px solid black;
+}
+
+.menu ul{
+    list-style: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.menu ul li a:hover{
+    color: #FF9F00;
+}
+
+/* CSS For Main Content */
+
+.main-content{
+    background-color: white;
+    padding: 3% 0;
+}
+
+.col-4{
+    width: 18%;
+    background-color: #f5f7fa;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+
+/* CSS for Footer */
+.footer{
+    background-color: #121212;
+    color: white;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+
+/* CSS For Login */
+
+.login {
+background: #ffffff;
+width: 360px;
+margin: 100px auto;
+padding: 40px 50px;
+border-radius: 12px;
+box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+text-align: center;
+font-family: "Poppins", sans-serif;
+}
+
+/* Title */
+.login h1 {
+font-size: 28px;
+color: #333;
+margin-bottom: 25px;
+letter-spacing: 1px;
+}
+
+/* Input Fields */
+.login input[type="text"],
+.login input[type="password"] {
+width: 100%;
+padding: 12px 15px;
+margin: 10px 0 20px;
+border: 1px solid #ccc;
+border-radius: 8px;
+outline: none;
+font-size: 15px;
+transition: 0.3s;
+}
+
+.login input[type="text"]:focus,
+.login input[type="password"]:focus {
+border-color: #ff3c3c;
+box-shadow: 0 0 5px rgba(255, 60, 60, 0.4);
+}
+
+/* Login Button */
+.login input[type="submit"],
+.login button {
+background: #ff3c3c;
+color: #fff;
+border: none;
+padding: 12px 0;
+width: 100%;
+border-radius: 8px;
+font-size: 16px;
+font-weight: bold;
+cursor: pointer;
+transition: background 0.3s ease;
+}
+
+.login input[type="submit"]:hover,
+.login button:hover {
+background: #ff5e5e;
+}
+
+/* Footer text */
+.login p {
+margin-top: 20px;
+font-size: 14px;
+color: #777;
+}
+
+/* Developer link */
+.login a {
+color: #ff3c3c;
+text-decoration: none;
+font-weight: 600;
+}
+
+.login a:hover {
+text-decoration: underline;
+}
+
+body {
+background-color: #2b2b2b;
+}
+
+
+
